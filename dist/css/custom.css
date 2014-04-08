@@ -1,0 +1,120 @@
+html {
+	background: url(../images/connect.png);
+}
+body {
+	background: url(../images/connect.png);
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blue {
+	color:#7ac6ff;
+}
+
+.inline {
+	display: inline-block;
+}
+.logo {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.logotext {
+	color: #0665FF;
+	font-family: Times;
+}
+
+
+.jumbotron {
+	background-color: rgba(255,255,255,1);
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(219,219,219,1);
+	-moz-box-shadow: 0px 0px 5px 5px rgba(219,219,219,1);
+	box-shadow: 0px 0px 5px 5px rgba(219,219,219,1);
+
+}
+.navbar {
+	background-color: white;
+}
+
+.table tbody>tr>td.vert-align
+{
+    vertical-align: middle;
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	
+    bottom: 0;
+    color: black;
+}
+
+.repeat {
+	background-repeat: repeat-x;
+}
+
+
+#pres {
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+
+#name {
+	font-family: Sansation;
+	display: inline-block;
+}
+
+#tableTitle {
+	font-size: 20px;
+}
+
+.logoBlock {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sciLogo {
+	padding-left: 10px;
+}
+
+.jumbotron {
+	min-width: 1000px;
+}
+
+@font-face {
+    font-family:"Harabara";
+    src:
+    url("../fonts/Harabara.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"Sansation";
+    src:
+    url("../fonts/Sansation_Regular.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"Opificio";
+    src:
+    url("../fonts/Opificio.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+h1 {
+	font-family: Sansation;
+}

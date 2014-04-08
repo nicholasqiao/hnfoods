@@ -1,0 +1,47 @@
+html {
+	height: 100%;
+}
+body {
+	
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #1B60A4 0%, #000000 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #1B60A4 0%, #000000 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #1B60A4 0%, #000000 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1B60A4), color-stop(1, #000000));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #1B60A4 0%, #000000);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #1B60A4 0%, #000000 100%);
+background-repeat: no-repeat;
+
+}
+
+h2 {
+	color: white;
+}
+
+.jumbotron {
+	background-color: #A2BFF2;
+
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+    bottom: 0;
+    color: white;
+}
+
+
+.jumbotron {
+	height: 650px;
+}
